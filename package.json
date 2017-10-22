@@ -1,0 +1,43 @@
+{
+  "name": "geotiff-layer-for-leaflet",
+  "version": "0.0.1",
+  "description": "Display GeoTIFFs on your Leaflet Map",
+  "main": "geotiff-layer-for-leaflet.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoTIFF/geotiff-layer-for-leaflet.git"
+  },
+  "keywords": [
+    "geotiff",
+    "geotiff.io",
+    "geotiff-io",
+    "gis",
+    "maps",
+    "raster",
+    "rasters",
+    "geoprocessing",
+    "pixels",
+    "tiff"
+  ],
+  "author": "Daniel Dufour and Steve Peyton",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GeoTIFF/geotiff-layer-for-leaflet/issues"
+  },
+  "homepage": "https://github.com/GeoTIFF/geotiff-layer-for-leaflet#readme",
+  "dependencies": {
+    "chroma": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jsdoc": "^3.5.5",
+    "memory-fs": "^0.4.1",
+    "request": "^2.81.0",
+    "webpack": "^3.5.4"
+  }
+}
