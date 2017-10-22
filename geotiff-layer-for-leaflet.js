@@ -127,7 +127,7 @@ module.exports = L.GridLayer.extend({
         // create a <canvas> element for drawing
         let tile = L.DomUtil.create('canvas', 'leaflet-tile');
 
-        tile.style.border = "5px solid pink";
+        //tile.style.border = "5px solid pink";
 
         // get a canvas context and draw something on it using coords.x, coords.y and coords.z
         let context = tile.getContext('2d');
